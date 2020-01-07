@@ -13,6 +13,9 @@
 		2D52C44923C26AEA00AEB8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D52C44823C26AEA00AEB8B4 /* Assets.xcassets */; };
 		2D52C44C23C26AEA00AEB8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D52C44B23C26AEA00AEB8B4 /* Preview Assets.xcassets */; };
 		2D52C44F23C26AEA00AEB8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D52C44D23C26AEA00AEB8B4 /* LaunchScreen.storyboard */; };
+		2D52C45823C26FA000AEB8B4 /* TimerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52C45723C26FA000AEB8B4 /* TimerSample.swift */; };
+		2D52C45A23C270D600AEB8B4 /* NotificationCenterSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52C45923C270D600AEB8B4 /* NotificationCenterSample.swift */; };
+		2D52C45C23C2912700AEB8B4 /* KVOSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52C45B23C2912700AEB8B4 /* KVOSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2D52C44B23C26AEA00AEB8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D52C44E23C26AEA00AEB8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D52C45023C26AEA00AEB8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D52C45723C26FA000AEB8B4 /* TimerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSample.swift; sourceTree = "<group>"; };
+		2D52C45923C270D600AEB8B4 /* NotificationCenterSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterSample.swift; sourceTree = "<group>"; };
+		2D52C45B23C2912700AEB8B4 /* KVOSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 				2D52C44223C26AE900AEB8B4 /* AppDelegate.swift */,
 				2D52C44423C26AE900AEB8B4 /* SceneDelegate.swift */,
 				2D52C44623C26AE900AEB8B4 /* ContentView.swift */,
+				2D52C45623C26F7800AEB8B4 /* Samples */,
 				2D52C44823C26AEA00AEB8B4 /* Assets.xcassets */,
 				2D52C44D23C26AEA00AEB8B4 /* LaunchScreen.storyboard */,
 				2D52C45023C26AEA00AEB8B4 /* Info.plist */,
@@ -73,6 +80,16 @@
 				2D52C44B23C26AEA00AEB8B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D52C45623C26F7800AEB8B4 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				2D52C45923C270D600AEB8B4 /* NotificationCenterSample.swift */,
+				2D52C45723C26FA000AEB8B4 /* TimerSample.swift */,
+				2D52C45B23C2912700AEB8B4 /* KVOSample.swift */,
+			);
+			path = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D52C45C23C2912700AEB8B4 /* KVOSample.swift in Sources */,
 				2D52C44323C26AE900AEB8B4 /* AppDelegate.swift in Sources */,
 				2D52C44523C26AE900AEB8B4 /* SceneDelegate.swift in Sources */,
+				2D52C45A23C270D600AEB8B4 /* NotificationCenterSample.swift in Sources */,
 				2D52C44723C26AE900AEB8B4 /* ContentView.swift in Sources */,
+				2D52C45823C26FA000AEB8B4 /* TimerSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
